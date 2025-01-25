@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const TimerApp = () => {
+const Counter = () => {
   const [workDuration, setWorkDuration] = useState(10);
   const [breakDuration, setBreakDuration] = useState(1);
   const [time, setTime] = useState(workDuration * breakDuration * 60);
@@ -74,4 +74,4 @@ const TimerApp = () => {
   );
 };
 
-export default TimerApp;
+export default Counter;
